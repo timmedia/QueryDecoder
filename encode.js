@@ -5,6 +5,5 @@ function encode () {
     .split('&')
     .map(e => e.split('=' ))
     .map(e => query[e[0]] = e[1])
-    console.log(query)
   return query
 }
