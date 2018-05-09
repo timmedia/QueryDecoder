@@ -1,4 +1,4 @@
-function encode () {
+function decode () {
   var query = {}
   window.location.search
     .substr(1)
